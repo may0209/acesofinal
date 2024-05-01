@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FFF1E5;
+    color: #333;
+}
+
+h1,h3,h2,h4,h5,p{
+    color:#BB6250;
+}
+
+.title {
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+}
+
+.menu {
+    margin-left: auto;
+}
+.menu a {
+    margin-right: 40px; 
+    color:#E5645E;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+.ad {
+    padding: 10px; 
+    text-align: center;
+    width :100%;
+}
+.ad h1{
+      color:#bc7d6a;
+}
+
+.classintroduction h1{
+    text-align: center;
+}
+
+.container { 
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product {
+    flex-basis: calc(25% - 5px);
+    border: 1px solid #bb6250;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.product button {
+    padding: 10px 20px;
+    background-color: #bc7d6a;
+    color: #fff;
+    border: none;
+}
+.container3 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+.adj {
+    padding: 10px; 
+    text-align: center;
+    background-color:#bc7d6a;
+}
+.adj h1{
+      color:#FFFFFF;
+}
+.container2{
+    text-align: center;
+}
+.address {
+    border: 1px solid #bb6250;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.address img {
+    width: 450px;
+    height: 350px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+
+
+
+.copyright p{
+    text-align: center;
+}
+
+

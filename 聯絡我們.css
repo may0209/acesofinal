@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FFF1E5;
+    color: #333;
+}
+
+h1{
+    color:#E5645E;
+}
+h3,h2,h5,p{
+    color:#BB6250;
+}
+
+.title {
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+}
+
+.menu {
+    margin-left: auto;
+}
+.menu a {
+    margin-right: 40px; 
+    color:#E5645E;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.container h1,h2{
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; 
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.copyright p{
+    text-align: center;
+}

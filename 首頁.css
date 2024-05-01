@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#FFF1E5;
+}
+h1{
+    color:#E5645E;
+}
+
+h3,h2,h5,p{
+    color:#BB6250;
+}
+
+.title {
+  position: relative;
+}
+
+.menu {
+    margin-left: auto;
+}
+.menu a {
+    margin-right: 40px; 
+    color:#E5645E;
+}
+
+.banner {
+    display: flex;
+    align-items: center; 
+}
+
+.bannert img{    
+    width: 100%;
+    height: 350px;
+}
+
+.bannert{
+    position: relative;
+}
+.bannert .titlet p{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 70px;
+    font-size: 50px;
+    color:white;
+}
+
+.col{
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fae8e1;
+  border-radius:10px;
+}
+
+.col a{
+    font-size: 40px;
+    color:#E5645E;
+}
+
+
+.introduction {
+    text-align: center;
+}
+
+.introduction a{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color:#E5645E;
+}
+
+.weoffer{
+  display: flex;
+  height: 100%;
+  padding: 0 5px;
+}
+
+.belief{
+  display: flex;
+  height: 100%;
+  padding: 0 5px;
+}
+
+.type{
+    display: flex;
+    height: 100%;
+    padding: 0 5px;
+ } 
+
+ .tools{
+  display: flex;
+  height: 100%;
+  padding: 0 5px;
+}
+
+
+
+
+.links {
+    text-align: center; 
+}
+
+.links a {
+    display: inline-block; 
+}
+
+.slogan {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.adj {
+    padding: 10px; 
+    text-align: center;
+    background-color:#fae8e1;
+    width :100%;
+}
+.adj h1{
+      color:#bc7d6a;
+}
+
+.copyright p{
+    text-align: center;
+}
+.me hr{
+    color: #E5645E; 
+} 
+
+

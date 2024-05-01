@@ -1,0 +1,103 @@
+body{
+	background-color:#FFF1E5;
+	font-family: 思源黑體, 微軟正黑體, 蘋方體, 黑體, sans-serif, serif;
+  	}
+
+.title{
+	flex:1;
+}
+.menu{
+position: absolute;
+    top: 0;
+    left: calc(100% + 10px); /* 10px 为链接和图像之间的间距 */
+}
+
+.links a {
+    display: block;
+    margin-bottom: 10px; /* 调整链接之间的垂直间距 */
+}
+
+.title{
+	color:#E5645E;
+}
+h1{
+	color:#E5645E;
+}
+
+h3,h5{
+	color:#BB6250;
+}
+
+.col{
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #EAF0ED;
+  margin: 10px 5px;
+  border-radius:10px;
+}
+
+.belief{
+  display: flex;
+  height: 100%;
+  padding: 0 5px;
+}
+
+.weoffer{
+  display: flex;
+  height: 100%;
+  padding: 0 5px;
+}
+
+.tools{
+  display: flex;
+  height: 100%;
+  padding: 0 5px;
+}
+.banner{
+
+}
+
+
+
+ .type{
+ 	display: flex;
+  	height: 100%;
+  	padding: 0 5px;
+ } 
+
+ .slogan{
+    display: flex;
+    justify-content: center; /* 水平置中 */
+    align-items: center; /* 垂直置中 */
+ }
+
+.workslist{
+  display: flex;  
+  padding: 0 100px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.button{
+  background-color: #3F5D45;
+  border: 0;
+  color: #fff;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+.copyright p{
+    text-align: center;
+}
+.banner img{
+	justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    display: flex;
+}
